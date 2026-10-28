@@ -3,8 +3,10 @@ local Recipe = data.raw["recipe"]
 
 if mods["Transport_Drones_Continued_Fixed"] then
 	table.insert(Tech["transport-system"].effects, {type="unlock-recipe", recipe="fluid-depot"})
-	if Recipe["active-depot"].enabled == false then Tech["transport-active-supply"].hidden = true end
-	if Recipe["active-depot"].enabled == false then Tech["transport-active-supply"].enabled = false end
+	--if (Recipe["active-depot"].enabled == false or Recipe["storage-depot"].enabled == false) then
+		Tech["transport-active-supply"].hidden = true
+		Tech["transport-active-supply"].enabled = false
+	--end
 	Tech["fast-road"].research_trigger = {type ="craft-item", item ="road", count = 1000}
     Tech["fast-road"].unit = nil
 	Tech["transport-fluids"].hidden = true
