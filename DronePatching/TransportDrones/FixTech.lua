@@ -62,6 +62,8 @@ if mods["Transport_Drones"] then
 	Tech["transport-system"].prerequisites = {"steel-processing", "automation-science-pack"}
 	Tech["fast-road"].research_trigger = {type ="craft-item", item ="road", count = 1000}
     Tech["fast-road"].unit = nil
+	Tech["mininature-transport-depots"].hidden = true
+	Tech["mininature-transport-depots"].enabled = false
 
     if mods["pypostprocessing"]then
         Tech["transport-system"].unit.ingredients = {
