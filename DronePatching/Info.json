@@ -1,0 +1,22 @@
+{ 
+    "name": "DronePatching",
+    "title": "DronePatching",
+    "version": "0.1.0",
+    "factorio_version": "2.1",
+    "author": "SGZ_Creations",
+    "dependencies":[
+        "base",
+		"? bobrevamp >= 2.1.0", 
+        "? bobplates >= 2.1.0",
+		"? pypostprocessing",
+		"+ Transport_Drones >= 2.1.14",
+        "+ Transport_Drones_Continued_Fixed >= 2.1.0"
+    ],
+    "description": "This mod adds Changes Recipes, Tech & some other parts for Transport_Drones_Continued_Fixed & Transport_Drones",
+    "package": {
+        "ignore": [
+            ".gitignore",
+            ".gitattributes"
+        ]
+    }
+}

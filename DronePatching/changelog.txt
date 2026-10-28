@@ -1,0 +1,6 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 28.10.26
+  Features:
+    - Initial release.
+    - Please report any issues to me not the mods i have made patches for.
