@@ -1,7 +1,7 @@
 { 
     "name": "DronePatching",
     "title": "DronePatching",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "factorio_version": "2.1",
     "author": "SGZ_Creations",
     "dependencies":[
@@ -11,7 +11,7 @@
 		"? pypostprocessing",
         "? SeaBlock",
 		"+ Transport_Drones >= 2.1.4",
-        "+ Transport_Drones_Continued_Fixed >= 2.1.0"
+        "+ Transport_Drones_Continued_Fixed >= 2.1.4"
     ],
     "description": "This mod adds Changes Recipes, Tech & some other parts for Transport_Drones_Continued_Fixed & Transport_Drones",
     "package": {
