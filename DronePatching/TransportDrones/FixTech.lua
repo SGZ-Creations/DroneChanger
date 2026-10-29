@@ -4,9 +4,14 @@ if mods["Transport_Drones_Continued_Fixed"] then
 	table.insert(Tech["transport-system"].effects, {type="unlock-recipe", recipe="fluid-depot"})
 	Tech["fast-road"].research_trigger = {type ="craft-item", item ="road", count = 2000}
     Tech["fast-road"].unit = nil
-	Tech["transport-fluids"].hidden = true
-	Tech["transport-fluids"].enabled = false
+
 	Tech["transport-system"].prerequisites = {"steel-processing", "automation-science-pack"}
+
+	if Tech["transport-fluids"] then
+		Tech["transport-fluids"].hidden = true
+		Tech["transport-fluids"].enabled = false
+	end
+
 	Tech["transport-system"].unit.ingredients = {{"automation-science-pack",  1}}
 	if Tech["transport-buffering"] then
 		Tech["transport-buffering"].unit.ingredients = {{"automation-science-pack",  1}, {"logistic-science-pack",  1}}
