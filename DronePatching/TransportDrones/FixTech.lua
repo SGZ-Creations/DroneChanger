@@ -4,7 +4,7 @@ if mods["Transport_Drones_Continued_Fixed"] then
 	Tech["transport-basic"].prerequisites = {"steel-processing", "automation-science-pack"}
 	Tech["transport-basic"].unit.ingredients = {{"automation-science-pack",  1}}
 
-	Tech["transport-deliveries"].unit.ingredients = {{"automation-science-pack",  1}}
+	Tech["transport-deliveries"].unit.ingredients = {{"automation-science-pack",  1}, {"logistic-science-pack",  1}}
 
 	if (SS["enable-active-depot"].value == true or SS["enable-storage-depot"].value == true or SS["enable-buffer-depot"].value == true) then
 		Tech["transport-advanced"].unit.ingredients = {{"automation-science-pack",  1}, {"logistic-science-pack",  1}}
