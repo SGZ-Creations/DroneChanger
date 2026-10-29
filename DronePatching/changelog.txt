@@ -1,6 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 29.10.26
+  Bugfixes:
+    - [TDCF] Fixes cashes with new & up coming updates.
+---------------------------------------------------------------------------------------------------
 Version: 0.1.0
-Date: 28.10.26
+Date: 29.10.26
   Features:
-    - Initial release.
-    - Please report any issues to me not the mods i have made patches for.
+    - [DP/DC] Initial release.
+    - [DP/DC] Please report any issues to me not the mods i have made patches for.

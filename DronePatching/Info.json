@@ -1,7 +1,7 @@
 { 
     "name": "DronePatching",
     "title": "DronePatching",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "factorio_version": "2.1",
     "author": "SGZ_Creations",
     "dependencies":[
