@@ -10,6 +10,9 @@ if mods["Transport_Drones_Continued_Fixed"] then
 	Tech["transport-system"].unit.ingredients = {{"automation-science-pack",  1}}
 	Tech["transport-buffering"].unit.ingredients = {{"automation-science-pack",  1}, {"logistic-science-pack",  1}}
 	Tech["transport-active-supply"].unit.ingredients = {{"automation-science-pack",  1}, {"logistic-science-pack",  1}}
+	if mods["pypostprocessing"]then
+		Tech["transport-system"].prerequisites = nil
+	end
 end
 
 if mods["Transport_Drones"] then
@@ -19,6 +22,9 @@ if mods["Transport_Drones"] then
 	Tech["miniature-transport-depots"].hidden = true
 	Tech["miniature-transport-depots"].enabled = false
 	Tech["transport-system"].unit.ingredients = {{"automation-science-pack",  2}}
+	if mods["pypostprocessing"]then
+		Tech["transport-system"].prerequisites = nil
+	end
 end
 
 if mods["SeaBlock"] then
