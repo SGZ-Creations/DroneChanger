@@ -39,5 +39,4 @@ if mods["Transport_Drones"] then
 		Tech["transport-system"].prerequisites = nil
 		Tech["transport-system"].unit = nil
 	end
-end 
-
+end
