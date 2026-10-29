@@ -14,7 +14,7 @@ if mods["Transport_Drones"]then
 		{type = "item", name = "electronic-circuit", amount = 10},
 		{type = "item", name = "steel-plate", amount = 10},
 	}
--- To replace recipes in the eventkrastorio2 or K2SO is active. This won't be listed as a dependency as K2 is required by K2SO.
+-- To replace recipes in the event Krastorio2 or K2SO is active. This won't be listed as a dependency as K2 is required by K2SO.
 	if mods["Krastorio2"] then
 		Recipe["transport-drone"].ingredients = {
 			{type = "item", name = "electronic-circuit", amount = 10},

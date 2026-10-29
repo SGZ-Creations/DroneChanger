@@ -9,6 +9,7 @@
 		"? bobrevamp >= 2.1.0", 
         "? bobplates >= 2.1.0",
 		"? pypostprocessing",
+        "? SeaBlock",
 		"+ Transport_Drones >= 2.1.4",
         "+ Transport_Drones_Continued_Fixed >= 2.1.0"
     ],
